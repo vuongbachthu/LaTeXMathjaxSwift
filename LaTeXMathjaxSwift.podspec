@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LaTeXMathjaxSwift'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'LaTeX Mathjax Renderer written in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,11 @@ Pod::Spec.new do |s|
   s.swift_versions = ['4.2']
 
   s.source_files = 'LaTeXMathjaxSwift/Classes/**/*'
+  s.resources = ['LaTeXMathjaxSwift/Assets/*', 'LaTeXMathjaxSwift/External]/mathjax']
+  #  s.resource_bundles = {
+  #    'LaTeXMathjaxSwift' => ['LaTeXMathjaxSwift/Assets/*', 'LaTeXMathjaxSwift/External]/mathjax']
+  #  }
   
-  s.resource_bundles = {
-    'LaTeXMathjaxSwift' => ['LaTeXMathjaxSwift/Assets/*', 'LaTeXMathjaxSwift/External]/mathjax']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'WebKit'

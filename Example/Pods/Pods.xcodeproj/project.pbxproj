@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		05B38A917BC463CED77125FBB0381C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
-		05D448C1A70C0F4F1B5AADBC27D790DC /* LaTeXRenderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE82C847AA992527A0B4B920B238D791 /* LaTeXRenderOperation.swift */; };
+		0AB0FB1D26CAD98044AF2DEC76D8B427 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */; };
 		18D3020DA82F3746C78528D3AB787F60 /* Pods-LaTeXMathjaxSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9B910D1183FE60848E9426AC8CC74 /* Pods-LaTeXMathjaxSwift_Example-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29461AB6375CE7BE705D72AFBA274C40 /* MathJaxRenderer.html in Resources */ = {isa = PBXBuildFile; fileRef = A0BC72E75194C5ABBA859C79F7CF0E3C /* MathJaxRenderer.html */; };
+		24400E8E6276C3A3D28A6F659734FB0B /* LaTeXRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D453EC6F9270CE3EAB766E4E776D8EB /* LaTeXRenderer.swift */; };
+		26279D43C22623B658869443F9D4BA66 /* LaTeXImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C63546A1626BC39AEA2026FE85C33 /* LaTeXImageView.swift */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2D086E1EEF8345106BAB7A886C4AA6CE /* LaTeXMathjaxSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85A10A0960E2E6150F3F5B51768628AE /* LaTeXMathjaxSwift.bundle */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47A3E4415C43349231485D55013714EE /* Pods-LaTeXMathjaxSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4275C030379747C1A92989178740ED0B /* Pods-LaTeXMathjaxSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9CD47BC3A712CA8057862C463A3C17 /* MathJaxRenderer.html in Resources */ = {isa = PBXBuildFile; fileRef = 71FEADBBAA903BD80D667295DAD97093 /* MathJaxRenderer.html */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		5FF641D360CB84B03557FAAFAD50A4C9 /* LaTeXMathjaxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41925CD0689BE7EAF206C32C1BCBB861 /* LaTeXMathjaxSwift-dummy.m */; };
+		61DC1BD74A97FA9FA68CF35E2BD1E8D5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6FB7AD6609F1B603DA2C6D568FDA0325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */; };
+		71831A04CF69549FB01F9E82EA86AB64 /* LaTeXMathjaxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F0810AF0029210DEDB779AAE5A2475 /* LaTeXMathjaxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		93C1332CB3C26B7DFA494819B0011F94 /* LaTeXRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502A529BCCF9195B5205E4E947D73EE6 /* LaTeXRenderer.swift */; };
+		8E398AF4AC3E1267F971BC318EF84E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
+		9BF5D6E353355D7131F1922194DE1F64 /* LaTeXMathjaxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1EA4A514832F150A60279A9A480D3 /* LaTeXMathjaxSwift-dummy.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A966B8A34B55EC242C09CDB41C74B98D /* XCTest.framework */; };
-		A0361FBD150CEE82CB457BB3DDA131FB /* LaTeXMathjaxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5158139009BE64A3B52A320E4FAED7 /* LaTeXMathjaxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1D3D9B341A34D78FD09E616AC3E4949 /* LaTeXImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD392CD3871111DE2671855805007DB4 /* LaTeXImageView.swift */; };
 		B3A2F48B346F756A7DC773242AA1A0EE /* Pods-LaTeXMathjaxSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB8D803D843B7873A59A434025AEA01 /* Pods-LaTeXMathjaxSwift_Tests-dummy.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		BD28DD09CF897906EDFA1E5390624A43 /* Pods-LaTeXMathjaxSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49362821E3BCA09301179B8B5FBFF909 /* Pods-LaTeXMathjaxSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,8 +41,7 @@
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741F58D1764827C251315378B60BC3D /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		D8BE2D4AA6DE712861817C12596DCE5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
-		E0B78E1AE5FBB87CE0449A025CDF1EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
-		F5ED1C33B9925001F2DE2DA6C69FF1A9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */; };
+		EF0034742F2B5B7362A09B4BAA8C640F /* LaTeXRenderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784F60013AA4D535903A8D9E629EA01 /* LaTeXRenderOperation.swift */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -54,20 +53,6 @@
 			remoteGlobalIDString = 87CF6235460F2D74EBD01C8748CB8956;
 			remoteInfo = LaTeXMathjaxSwift;
 		};
-		8F9556B0BFE15DA66ED104EDDB327CF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97512EB5D428C76D2EC4026DB0CEFDE6;
-			remoteInfo = "LaTeXMathjaxSwift-LaTeXMathjaxSwift";
-		};
-		93CF789EBBDA340499FE0EFFFB09B939 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E4EFC889DC45C7021B33EEF2EF3520A;
-			remoteInfo = "Pods-LaTeXMathjaxSwift_Example";
-		};
 		D4D8B86AA454691A229D58CAC540B698 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -75,74 +60,79 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		E6D98188D16426C7EB318B07AD7EB52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4EFC889DC45C7021B33EEF2EF3520A;
+			remoteInfo = "Pods-LaTeXMathjaxSwift_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LaTeXMathjaxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LaTeXMathjaxSwift; path = LaTeXMathjaxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0741F58D1764827C251315378B60BC3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		165097D40D1412E62D4ECB1D5ACD8D16 /* Pods-LaTeXMathjaxSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaTeXMathjaxSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1A9D7881BEC80BD68701983FCA954E1E /* Pods-LaTeXMathjaxSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaTeXMathjaxSwift_Example.modulemap"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1C3BAD5408BBEFA6B22FCFB82F4D1EDA /* LaTeXMathjaxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaTeXMathjaxSwift.release.xcconfig; sourceTree = "<group>"; };
+		2200D79DA8C34080E9FE53177408C738 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		23731BB1AB57B69FA7F4444D5317BCEB /* Pods_LaTeXMathjaxSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaTeXMathjaxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23731BB1AB57B69FA7F4444D5317BCEB /* Pods-LaTeXMathjaxSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LaTeXMathjaxSwift_Example"; path = Pods_LaTeXMathjaxSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		307DA3BE66EA011B4361B05DCAA1BC03 /* Pods-LaTeXMathjaxSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LaTeXMathjaxSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		30F0810AF0029210DEDB779AAE5A2475 /* LaTeXMathjaxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaTeXMathjaxSwift-umbrella.h"; sourceTree = "<group>"; };
 		324204C54FB59FFB6B083C9559B5477B /* Pods-LaTeXMathjaxSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeXMathjaxSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B5158139009BE64A3B52A320E4FAED7 /* LaTeXMathjaxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaTeXMathjaxSwift-umbrella.h"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		41925CD0689BE7EAF206C32C1BCBB861 /* LaTeXMathjaxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaTeXMathjaxSwift-dummy.m"; sourceTree = "<group>"; };
 		4275C030379747C1A92989178740ED0B /* Pods-LaTeXMathjaxSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaTeXMathjaxSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		48BE9F3DD451257733B8E9023E64B8BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49362821E3BCA09301179B8B5FBFF909 /* Pods-LaTeXMathjaxSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaTeXMathjaxSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4F91CE1042B5AE9263BF4A6AC8EF0C69 /* LaTeXMathjaxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LaTeXMathjaxSwift-Info.plist"; sourceTree = "<group>"; };
-		502A529BCCF9195B5205E4E947D73EE6 /* LaTeXRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXRenderer.swift; path = LaTeXMathjaxSwift/Classes/LaTeXRenderer.swift; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F872C7E31C0C8477C92CC8EE41D9180 /* LaTeXMathjaxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LaTeXMathjaxSwift.modulemap; sourceTree = "<group>"; };
+		4D453EC6F9270CE3EAB766E4E776D8EB /* LaTeXRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXRenderer.swift; path = LaTeXMathjaxSwift/Classes/LaTeXRenderer.swift; sourceTree = "<group>"; };
+		51D1EA4A514832F150A60279A9A480D3 /* LaTeXMathjaxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaTeXMathjaxSwift-dummy.m"; sourceTree = "<group>"; };
+		52822501EB2FDE9492F01F4CF59972EA /* LaTeXMathjaxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LaTeXMathjaxSwift-Info.plist"; sourceTree = "<group>"; };
+		59202A0A7D6411D13F5C423D95656D7E /* LaTeXMathjaxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LaTeXMathjaxSwift.modulemap; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F964AA81E8E34CB2EBBD6395A62780A /* Pods-LaTeXMathjaxSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeXMathjaxSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		5FC8A910F55EE5878E93A01BE70E1281 /* Pods-LaTeXMathjaxSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeXMathjaxSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6CC9B910D1183FE60848E9426AC8CC74 /* Pods-LaTeXMathjaxSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaTeXMathjaxSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		705F33364BA6DB6A2CF685F0E2D4EFAD /* LaTeXMathjaxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaTeXMathjaxSwift-prefix.pch"; sourceTree = "<group>"; };
+		6F3C63546A1626BC39AEA2026FE85C33 /* LaTeXImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXImageView.swift; path = LaTeXMathjaxSwift/Classes/LaTeXImageView.swift; sourceTree = "<group>"; };
+		71FEADBBAA903BD80D667295DAD97093 /* MathJaxRenderer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = MathJaxRenderer.html; path = LaTeXMathjaxSwift/Assets/MathJaxRenderer.html; sourceTree = "<group>"; };
+		750D0EE8C4B274E2EA8F92A966CC7ED9 /* LaTeXMathjaxSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LaTeXMathjaxSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7840A5900775806266749F5677502E1E /* Pods-LaTeXMathjaxSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeXMathjaxSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		7ED8967CF6A236740475CA0C23D005E4 /* Pods-LaTeXMathjaxSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeXMathjaxSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		85A10A0960E2E6150F3F5B51768628AE /* LaTeXMathjaxSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaTeXMathjaxSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9059C79A251645A09E573971F297C2CB /* LaTeXMathjaxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaTeXMathjaxSwift.debug.xcconfig; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB8D803D843B7873A59A434025AEA01 /* Pods-LaTeXMathjaxSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaTeXMathjaxSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		A0BC72E75194C5ABBA859C79F7CF0E3C /* MathJaxRenderer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = MathJaxRenderer.html; path = LaTeXMathjaxSwift/Assets/MathJaxRenderer.html; sourceTree = "<group>"; };
 		A17387CE6BC5C736DD45178FA4335027 /* Pods-LaTeXMathjaxSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaTeXMathjaxSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A87BA4C6F721F5350A3F8D740C8004B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A966B8A34B55EC242C09CDB41C74B98D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AD392CD3871111DE2671855805007DB4 /* LaTeXImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXImageView.swift; path = LaTeXMathjaxSwift/Classes/LaTeXImageView.swift; sourceTree = "<group>"; };
 		ADCD20A0BC37E3BA545423C104A4E05D /* Pods-LaTeXMathjaxSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaTeXMathjaxSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		AF4A7EF7F89DA23C38C00FE330401437 /* LaTeXMathjaxSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LaTeXMathjaxSwift.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BF53A10DE7BF40717AE1FC08BB58862A /* LaTeXMathjaxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaTeXMathjaxSwift.release.xcconfig; sourceTree = "<group>"; };
+		C9AC37A3711F1D1D96961316D314506D /* LaTeXMathjaxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaTeXMathjaxSwift-prefix.pch"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CF7E65662A4F5D0C423D97CF4A185712 /* LaTeXMathjaxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaTeXMathjaxSwift.debug.xcconfig; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E21DA3D31A98903F2735A7E459C92094 /* Pods-LaTeXMathjaxSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaTeXMathjaxSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7AFDA0771525D64E1CA1AF6A06B230D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods_LaTeXMathjaxSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaTeXMathjaxSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods-LaTeXMathjaxSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LaTeXMathjaxSwift_Tests"; path = Pods_LaTeXMathjaxSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09CE704B7D2A5843A6682BFB6AAF5F8 /* Pods-LaTeXMathjaxSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaTeXMathjaxSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F566DF5C93B03CE161223565B38D9239 /* Pods-LaTeXMathjaxSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeXMathjaxSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		F784F60013AA4D535903A8D9E629EA01 /* LaTeXRenderOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXRenderOperation.swift; path = LaTeXMathjaxSwift/Classes/LaTeXRenderOperation.swift; sourceTree = "<group>"; };
 		FA824C686C8401568FFDE0D738E234D2 /* Pods-LaTeXMathjaxSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaTeXMathjaxSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE82C847AA992527A0B4B920B238D791 /* LaTeXRenderOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaTeXRenderOperation.swift; path = LaTeXMathjaxSwift/Classes/LaTeXRenderOperation.swift; sourceTree = "<group>"; };
-		FE922BB4DF22D26C6A5BC4739B3374C2 /* ResourceBundle-LaTeXMathjaxSwift-LaTeXMathjaxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LaTeXMathjaxSwift-LaTeXMathjaxSwift-Info.plist"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,13 +145,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81A207B77A7263E08F35193B985CE88E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A31138037BBD5FF2DCB568C66EF66FB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,13 +153,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C67B8F63C4C3FC05AA865A7EFEB40C48 /* Frameworks */ = {
+		CD1D830848B12C2FCE4F5B373620D8C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B78E1AE5FBB87CE0449A025CDF1EFA /* Foundation.framework in Frameworks */,
-				6FB7AD6609F1B603DA2C6D568FDA0325 /* UIKit.framework in Frameworks */,
-				F5ED1C33B9925001F2DE2DA6C69FF1A9 /* WebKit.framework in Frameworks */,
+				8E398AF4AC3E1267F971BC318EF84E4F /* Foundation.framework in Frameworks */,
+				0AB0FB1D26CAD98044AF2DEC76D8B427 /* UIKit.framework in Frameworks */,
+				61DC1BD74A97FA9FA68CF35E2BD1E8D5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,20 +177,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		218269158243C15487DFF4778964432D /* LaTeXMathjaxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				AD392CD3871111DE2671855805007DB4 /* LaTeXImageView.swift */,
-				502A529BCCF9195B5205E4E947D73EE6 /* LaTeXRenderer.swift */,
-				FE82C847AA992527A0B4B920B238D791 /* LaTeXRenderOperation.swift */,
-				A0BC72E75194C5ABBA859C79F7CF0E3C /* MathJaxRenderer.html */,
-				7EA0900A700B449B0EE922DB146F5995 /* Pod */,
-				66DF14E8EB94B0A41DDF39B0B936283C /* Support Files */,
-			);
-			name = LaTeXMathjaxSwift;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,38 +227,23 @@
 			path = "Target Support Files/Pods-LaTeXMathjaxSwift_Example";
 			sourceTree = "<group>";
 		};
-		66DF14E8EB94B0A41DDF39B0B936283C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F872C7E31C0C8477C92CC8EE41D9180 /* LaTeXMathjaxSwift.modulemap */,
-				41925CD0689BE7EAF206C32C1BCBB861 /* LaTeXMathjaxSwift-dummy.m */,
-				4F91CE1042B5AE9263BF4A6AC8EF0C69 /* LaTeXMathjaxSwift-Info.plist */,
-				705F33364BA6DB6A2CF685F0E2D4EFAD /* LaTeXMathjaxSwift-prefix.pch */,
-				3B5158139009BE64A3B52A320E4FAED7 /* LaTeXMathjaxSwift-umbrella.h */,
-				9059C79A251645A09E573971F297C2CB /* LaTeXMathjaxSwift.debug.xcconfig */,
-				BF53A10DE7BF40717AE1FC08BB58862A /* LaTeXMathjaxSwift.release.xcconfig */,
-				FE922BB4DF22D26C6A5BC4739B3374C2 /* ResourceBundle-LaTeXMathjaxSwift-LaTeXMathjaxSwift-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LaTeXMathjaxSwift";
-			sourceTree = "<group>";
-		};
 		6A57B37118F803E8CBDBA96B897A660F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				218269158243C15487DFF4778964432D /* LaTeXMathjaxSwift */,
+				EA67B4470F0B8046A913A473DCF17D5E /* LaTeXMathjaxSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7EA0900A700B449B0EE922DB146F5995 /* Pod */ = {
+		7C141190ED2A1F1C2980BF50E8DFE202 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF4A7EF7F89DA23C38C00FE330401437 /* LaTeXMathjaxSwift.podspec */,
-				A87BA4C6F721F5350A3F8D740C8004B1 /* LICENSE */,
-				48BE9F3DD451257733B8E9023E64B8BB /* README.md */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift */,
+				23731BB1AB57B69FA7F4444D5317BCEB /* Pods-LaTeXMathjaxSwift_Example */,
+				F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods-LaTeXMathjaxSwift_Tests */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		87B079C18828F27A1393D44054F8F3A4 /* Targets Support Files */ = {
@@ -307,6 +261,16 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		B1529A9278F5C2AFDEA6F5C994DA3D3C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				750D0EE8C4B274E2EA8F92A966CC7ED9 /* LaTeXMathjaxSwift.podspec */,
+				2200D79DA8C34080E9FE53177408C738 /* LICENSE */,
+				E7AFDA0771525D64E1CA1AF6A06B230D /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -339,19 +303,8 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		C05D6A7FE740370C254B1CC2576CC764 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift.framework */,
-				85A10A0960E2E6150F3F5B51768628AE /* LaTeXMathjaxSwift.bundle */,
-				23731BB1AB57B69FA7F4444D5317BCEB /* Pods_LaTeXMathjaxSwift_Example.framework */,
-				F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods_LaTeXMathjaxSwift_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CD49A15288D193B7912D5402269D115D /* Pods-LaTeXMathjaxSwift_Tests */ = {
@@ -378,9 +331,24 @@
 				6A57B37118F803E8CBDBA96B897A660F /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				C05D6A7FE740370C254B1CC2576CC764 /* Products */,
+				7C141190ED2A1F1C2980BF50E8DFE202 /* Products */,
 				87B079C18828F27A1393D44054F8F3A4 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E2C077F8A922D90814D6F1BE3C237FB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59202A0A7D6411D13F5C423D95656D7E /* LaTeXMathjaxSwift.modulemap */,
+				51D1EA4A514832F150A60279A9A480D3 /* LaTeXMathjaxSwift-dummy.m */,
+				52822501EB2FDE9492F01F4CF59972EA /* LaTeXMathjaxSwift-Info.plist */,
+				C9AC37A3711F1D1D96961316D314506D /* LaTeXMathjaxSwift-prefix.pch */,
+				30F0810AF0029210DEDB779AAE5A2475 /* LaTeXMathjaxSwift-umbrella.h */,
+				CF7E65662A4F5D0C423D97CF4A185712 /* LaTeXMathjaxSwift.debug.xcconfig */,
+				1C3BAD5408BBEFA6B22FCFB82F4D1EDA /* LaTeXMathjaxSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LaTeXMathjaxSwift";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -389,6 +357,20 @@
 				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA67B4470F0B8046A913A473DCF17D5E /* LaTeXMathjaxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6F3C63546A1626BC39AEA2026FE85C33 /* LaTeXImageView.swift */,
+				4D453EC6F9270CE3EAB766E4E776D8EB /* LaTeXRenderer.swift */,
+				F784F60013AA4D535903A8D9E629EA01 /* LaTeXRenderOperation.swift */,
+				71FEADBBAA903BD80D667295DAD97093 /* MathJaxRenderer.html */,
+				B1529A9278F5C2AFDEA6F5C994DA3D3C /* Pod */,
+				E2C077F8A922D90814D6F1BE3C237FB7 /* Support Files */,
+			);
+			name = LaTeXMathjaxSwift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,11 +392,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90EF06DC605A4F77F0F228EA5952CEE8 /* Headers */ = {
+		8854BCB836EAC11F124F0B33121069C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0361FBD150CEE82CB457BB3DDA131FB /* LaTeXMathjaxSwift-umbrella.h in Headers */,
+				71831A04CF69549FB01F9E82EA86AB64 /* LaTeXMathjaxSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,39 +420,21 @@
 /* Begin PBXNativeTarget section */
 		87CF6235460F2D74EBD01C8748CB8956 /* LaTeXMathjaxSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B840C36ECAE449F55B3FBF6FB6384BF /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift" */;
+			buildConfigurationList = 7A620A074B400707348542636B1B4565 /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift" */;
 			buildPhases = (
-				90EF06DC605A4F77F0F228EA5952CEE8 /* Headers */,
-				0FB54E5998D3CEF21EBF3126CE185314 /* Sources */,
-				C67B8F63C4C3FC05AA865A7EFEB40C48 /* Frameworks */,
-				516CF94F9CF5D198F6EEBB5DB4BF2382 /* Resources */,
+				8854BCB836EAC11F124F0B33121069C0 /* Headers */,
+				4D218EBCA1FCF353C37211E14D9AB497 /* Sources */,
+				CD1D830848B12C2FCE4F5B373620D8C1 /* Frameworks */,
+				CF1D9152492963DD3FA436EB51EDE1B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3BFE8D167431188D9C25497016C602B0 /* PBXTargetDependency */,
 			);
 			name = LaTeXMathjaxSwift;
 			productName = LaTeXMathjaxSwift;
-			productReference = 02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift.framework */;
+			productReference = 02F719200A6978AA9FD414047566E1DE /* LaTeXMathjaxSwift */;
 			productType = "com.apple.product-type.framework";
-		};
-		97512EB5D428C76D2EC4026DB0CEFDE6 /* LaTeXMathjaxSwift-LaTeXMathjaxSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1909832873BFDEB63D1FCBC510FFEA0A /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift-LaTeXMathjaxSwift" */;
-			buildPhases = (
-				1C8A54B07351F48807CEAB10F73CA5D4 /* Sources */,
-				81A207B77A7263E08F35193B985CE88E /* Frameworks */,
-				8CC286AAB20231E323DC87E9957D2CBC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LaTeXMathjaxSwift-LaTeXMathjaxSwift";
-			productName = LaTeXMathjaxSwift;
-			productReference = 85A10A0960E2E6150F3F5B51768628AE /* LaTeXMathjaxSwift.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -487,7 +451,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
 		9E4EFC889DC45C7021B33EEF2EF3520A /* Pods-LaTeXMathjaxSwift_Example */ = {
@@ -506,7 +470,7 @@
 			);
 			name = "Pods-LaTeXMathjaxSwift_Example";
 			productName = Pods_LaTeXMathjaxSwift_Example;
-			productReference = 23731BB1AB57B69FA7F4444D5317BCEB /* Pods_LaTeXMathjaxSwift_Example.framework */;
+			productReference = 23731BB1AB57B69FA7F4444D5317BCEB /* Pods-LaTeXMathjaxSwift_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		E56F8B3C95D2345BC9035D9750F1918E /* Pods-LaTeXMathjaxSwift_Tests */ = {
@@ -522,11 +486,11 @@
 			);
 			dependencies = (
 				D7FEA034F367D925EBDA9635F042450F /* PBXTargetDependency */,
-				1B032697E2B1EA0E3B5ED6C7CAB75D7E /* PBXTargetDependency */,
+				0CCB99EC0D13BDED9C4653E195F88989 /* PBXTargetDependency */,
 			);
 			name = "Pods-LaTeXMathjaxSwift_Tests";
 			productName = Pods_LaTeXMathjaxSwift_Tests;
-			productReference = F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods_LaTeXMathjaxSwift_Tests.framework */;
+			productReference = F02DA9CDEACD1E3DCBA03A31FACEDE47 /* Pods-LaTeXMathjaxSwift_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -547,13 +511,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C05D6A7FE740370C254B1CC2576CC764 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = 7C141190ED2A1F1C2980BF50E8DFE202 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				87CF6235460F2D74EBD01C8748CB8956 /* LaTeXMathjaxSwift */,
-				97512EB5D428C76D2EC4026DB0CEFDE6 /* LaTeXMathjaxSwift-LaTeXMathjaxSwift */,
 				9E4EFC889DC45C7021B33EEF2EF3520A /* Pods-LaTeXMathjaxSwift_Example */,
 				E56F8B3C95D2345BC9035D9750F1918E /* Pods-LaTeXMathjaxSwift_Tests */,
 			);
@@ -565,14 +529,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		516CF94F9CF5D198F6EEBB5DB4BF2382 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D086E1EEF8345106BAB7A886C4AA6CE /* LaTeXMathjaxSwift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,32 +546,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CC286AAB20231E323DC87E9957D2CBC /* Resources */ = {
+		CF1D9152492963DD3FA436EB51EDE1B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29461AB6375CE7BE705D72AFBA274C40 /* MathJaxRenderer.html in Resources */,
+				4C9CD47BC3A712CA8057862C463A3C17 /* MathJaxRenderer.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FB54E5998D3CEF21EBF3126CE185314 /* Sources */ = {
+		4D218EBCA1FCF353C37211E14D9AB497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D3D9B341A34D78FD09E616AC3E4949 /* LaTeXImageView.swift in Sources */,
-				5FF641D360CB84B03557FAAFAD50A4C9 /* LaTeXMathjaxSwift-dummy.m in Sources */,
-				93C1332CB3C26B7DFA494819B0011F94 /* LaTeXRenderer.swift in Sources */,
-				05D448C1A70C0F4F1B5AADBC27D790DC /* LaTeXRenderOperation.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C8A54B07351F48807CEAB10F73CA5D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				26279D43C22623B658869443F9D4BA66 /* LaTeXImageView.swift in Sources */,
+				9BF5D6E353355D7131F1922194DE1F64 /* LaTeXMathjaxSwift-dummy.m in Sources */,
+				24400E8E6276C3A3D28A6F659734FB0B /* LaTeXRenderer.swift in Sources */,
+				EF0034742F2B5B7362A09B4BAA8C640F /* LaTeXRenderOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,17 +603,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B032697E2B1EA0E3B5ED6C7CAB75D7E /* PBXTargetDependency */ = {
+		0CCB99EC0D13BDED9C4653E195F88989 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LaTeXMathjaxSwift_Example";
 			target = 9E4EFC889DC45C7021B33EEF2EF3520A /* Pods-LaTeXMathjaxSwift_Example */;
-			targetProxy = 93CF789EBBDA340499FE0EFFFB09B939 /* PBXContainerItemProxy */;
-		};
-		3BFE8D167431188D9C25497016C602B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "LaTeXMathjaxSwift-LaTeXMathjaxSwift";
-			target = 97512EB5D428C76D2EC4026DB0CEFDE6 /* LaTeXMathjaxSwift-LaTeXMathjaxSwift */;
-			targetProxy = 8F9556B0BFE15DA66ED104EDDB327CF6 /* PBXContainerItemProxy */;
+			targetProxy = E6D98188D16426C7EB318B07AD7EB52C /* PBXContainerItemProxy */;
 		};
 		A38CE6DBFDE2CD7910989645B56B289B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -778,39 +721,6 @@
 			};
 			name = Release;
 		};
-		2193151A983A5DFC4A898E086771EC5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF53A10DE7BF40717AE1FC08BB58862A /* LaTeXMathjaxSwift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift.modulemap";
-				PRODUCT_MODULE_NAME = LaTeXMathjaxSwift;
-				PRODUCT_NAME = LaTeXMathjaxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		307AC229BC1EC61A51C2CA2FB945F272 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 324204C54FB59FFB6B083C9559B5477B /* Pods-LaTeXMathjaxSwift_Example.debug.xcconfig */;
@@ -845,22 +755,38 @@
 			};
 			name = Debug;
 		};
-		37653DC099DD5508AFDBC1D24BC9E4FB /* Debug */ = {
+		6313103643687C72857276746A901C41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9059C79A251645A09E573971F297C2CB /* LaTeXMathjaxSwift.debug.xcconfig */;
+			baseConfigurationReference = 1C3BAD5408BBEFA6B22FCFB82F4D1EDA /* LaTeXMathjaxSwift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LaTeXMathjaxSwift";
-				IBSC_MODULE = LaTeXMathjaxSwift;
-				INFOPLIST_FILE = "Target Support Files/LaTeXMathjaxSwift/ResourceBundle-LaTeXMathjaxSwift-LaTeXMathjaxSwift-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LaTeXMathjaxSwift/LaTeXMathjaxSwift.modulemap";
+				PRODUCT_MODULE_NAME = LaTeXMathjaxSwift;
 				PRODUCT_NAME = LaTeXMathjaxSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -928,23 +854,6 @@
 			};
 			name = Debug;
 		};
-		93856E84EB9CD4AA52B4692C20A058C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF53A10DE7BF40717AE1FC08BB58862A /* LaTeXMathjaxSwift.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LaTeXMathjaxSwift";
-				IBSC_MODULE = LaTeXMathjaxSwift;
-				INFOPLIST_FILE = "Target Support Files/LaTeXMathjaxSwift/ResourceBundle-LaTeXMathjaxSwift-LaTeXMathjaxSwift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = LaTeXMathjaxSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1000,7 +909,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1041,9 +951,9 @@
 			};
 			name = Release;
 		};
-		C75FF764BF85317AD91815D26B5A07E7 /* Debug */ = {
+		C8EC855258CC6AA320BE95B94F3736A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9059C79A251645A09E573971F297C2CB /* LaTeXMathjaxSwift.debug.xcconfig */;
+			baseConfigurationReference = CF7E65662A4F5D0C423D97CF4A185712 /* LaTeXMathjaxSwift.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1120,15 +1030,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1909832873BFDEB63D1FCBC510FFEA0A /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift-LaTeXMathjaxSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37653DC099DD5508AFDBC1D24BC9E4FB /* Debug */,
-				93856E84EB9CD4AA52B4692C20A058C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1147,20 +1048,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7A620A074B400707348542636B1B4565 /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EC855258CC6AA320BE95B94F3736A2 /* Debug */,
+				6313103643687C72857276746A901C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		86B755FE140349EAB72B8D67629F2042 /* Build configuration list for PBXNativeTarget "Pods-LaTeXMathjaxSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				307AC229BC1EC61A51C2CA2FB945F272 /* Debug */,
 				D59229CE45DB96147C46AF5516FB4F11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B840C36ECAE449F55B3FBF6FB6384BF /* Build configuration list for PBXNativeTarget "LaTeXMathjaxSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C75FF764BF85317AD91815D26B5A07E7 /* Debug */,
-				2193151A983A5DFC4A898E086771EC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
