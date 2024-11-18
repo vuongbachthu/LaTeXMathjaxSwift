@@ -1,0 +1,6 @@
+framework module LaTeXMathjaxSwift {
+  umbrella header "LaTeXMathjaxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
